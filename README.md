@@ -13,7 +13,8 @@ Oligarchy is designed for the Oligarchs who use Linux:
 ## Screenshots:
  <img width="1920" height="1080" alt="Oligarchy Theme" src="https://github.com/user-attachments/assets/0d6f2ca7-0542-4246-9534-b015336f52fb" />
 
-<img width="1890" height="1017" alt="Oligarchy Login" src="https://github.com/user-attachments/assets/63a3c265-4c21-44c7-aa9d-46cd089ac3ef" />
+<img width="1920" height="1080" alt="Oligarchy Preview" src="https://github.com/user-attachments/assets/8b96eaec-32ee-4bc4-b337-ed196d9f9948" />
+
 
 ## Install
 
