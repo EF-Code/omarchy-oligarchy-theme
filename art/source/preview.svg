@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1012" viewBox="0 0 1800 1012">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1012" viewBox="0 0 1800 1012">
   <defs>
     <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/>
@@ -8,6 +8,9 @@
       <stop offset="0" stop-color="#c6f36b"/>
       <stop offset="1" stop-color="#55d8ff"/>
     </linearGradient>
+    <clipPath id="wallpaper-card">
+      <rect x="1176" y="616" width="606" height="370" rx="6"/>
+    </clipPath>
   </defs>
   <rect width="1800" height="1012" fill="url(#wall)"/>
   <path d="M0 830 C380 720 520 920 850 760 S1370 560 1800 700 V1012 H0Z" fill="#08101c" opacity="0.64"/>
@@ -23,6 +26,8 @@
     <rect x="18" y="616" width="1140" height="370" rx="6"/>
     <rect x="1176" y="616" width="606" height="370" rx="6"/>
   </g>
+  <image xlink:href="preview-wallpaper.png" x="1176" y="616" width="606" height="370" preserveAspectRatio="xMidYMid slice" opacity="0.82" clip-path="url(#wallpaper-card)"/>
+  <rect x="1176" y="616" width="606" height="370" rx="6" fill="#08101c" opacity="0.34"/>
   <g font-family="monospace">
     <text x="45" y="94" font-size="15" letter-spacing="3" fill="#55d8ff">BOARDROOM / NVIM</text>
     <text x="45" y="131" font-size="16" fill="#65718a">01</text><text x="88" y="131" font-size="16" fill="#e8eef6">theme/colors.toml</text><text x="790" y="131" font-size="14" fill="#c6f36b">MODIFIED</text>

@@ -36,7 +36,7 @@ This repository includes the shared palette plus explicit styling for Hyprland b
 
 ## Development
 
-The vector source for the unlock art and previews lives in `art/source/`. The four wallpapers are final raster assets in `backgrounds/`; rebuild the vector assets with:
+The source assets for the unlock art and preview composition live in `art/source/`. The four wallpapers are final raster assets in `backgrounds/`; rebuild the generated assets with:
 
 ```bash
 ./scripts/render-assets.sh
