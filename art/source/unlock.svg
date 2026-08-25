@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#101c2d"/>
-      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="0.58" stop-color="#0b1020"/>
       <stop offset="1" stop-color="#070b16"/>
     </linearGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
@@ -10,18 +10,18 @@
       <stop offset="1" stop-color="#55d8ff"/>
     </linearGradient>
   </defs>
+
   <rect width="800" height="188" rx="12" fill="url(#panel)"/>
-  <path d="M0 0h238L800 188H570L0 0z" fill="#55d8ff" opacity="0.04"/>
-  <rect x="2" y="2" width="796" height="184" rx="10" fill="none" stroke="#30455f" stroke-width="3"/>
-  <path d="M2 183h796" stroke="url(#signal)" stroke-width="3"/>
-  <path d="M42 42h24v24H42zM42 78h24v24H42zM42 114h24v24H42z" fill="#c6f36b"/>
-  <text x="96" y="33" font-family="monospace" font-size="10" letter-spacing="2.5" fill="#65718a">PRIVATE COMPUTE CLUB / BOARD 01</text>
-  <text x="96" y="87" font-family="monospace" font-size="38" font-weight="700" letter-spacing="4" fill="#e8eef6">OLIGARCHY</text>
-  <text x="96" y="119" font-family="monospace" font-size="14" letter-spacing="2.5" fill="#55d8ff">ACCESS 001 // MEANS OF PRODUCTION</text>
-  <text x="96" y="151" font-family="monospace" font-size="11" letter-spacing="1.5" fill="#65718a">VOTING POWER 0.001% / LIQUIDITY NONE</text>
-  <path d="M574 42v104" stroke="#30455f" stroke-width="1"/>
-  <rect x="606" y="55" width="9" height="9" fill="#c6f36b"/>
-  <text x="632" y="64" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#e8eef6">SECURE</text>
-  <text x="606" y="95" font-family="monospace" font-size="11" letter-spacing="1.5" fill="#55d8ff">ENTER PASSPHRASE</text>
-  <text x="606" y="116" font-family="monospace" font-size="11" letter-spacing="1.5" fill="#65718a">TO CONTINUE</text>
+  <path d="M0 148L800 36" stroke="#1b3149" stroke-width="1" opacity="0.42"/>
+  <rect x="1" y="1" width="798" height="186" rx="11" fill="none" stroke="#30455f" stroke-width="2"/>
+  <rect x="34" y="38" width="8" height="28" rx="1" fill="#c6f36b"/>
+  <rect x="34" y="72" width="8" height="28" rx="1" fill="#c6f36b"/>
+  <rect x="34" y="106" width="8" height="28" rx="1" fill="#c6f36b"/>
+  <rect x="96" y="121" width="630" height="42" rx="6" fill="#050912" fill-opacity="0.62" stroke="#30455f"/>
+  <rect x="96" y="121" width="4" height="42" rx="2" fill="url(#signal)"/>
+  <rect x="116" y="137" width="10" height="10" fill="#c6f36b"/>
+  <path d="M96 177H726" stroke="url(#signal)" stroke-width="2" opacity="0.7"/>
+
+  <text x="96" y="88" font-family="monospace" font-size="38" font-weight="700" letter-spacing="4" fill="#e8eef6">OLIGARCHY</text>
+  <text x="142" y="148" font-family="monospace" font-size="12" letter-spacing="1.6" fill="#55d8ff">ENTER PASSPHRASE TO CONTINUE</text>
 </svg>

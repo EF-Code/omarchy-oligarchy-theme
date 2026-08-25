@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
   <defs>
     <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#050912" stop-opacity="0.92"/>
-      <stop offset="0.42" stop-color="#050912" stop-opacity="0.72"/>
-      <stop offset="0.74" stop-color="#050912" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#050912" stop-opacity="0.18"/>
+      <stop offset="0" stop-color="#030711" stop-opacity="0.96"/>
+      <stop offset="0.42" stop-color="#07101f" stop-opacity="0.82"/>
+      <stop offset="0.76" stop-color="#07101f" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#030711" stop-opacity="0.08"/>
     </linearGradient>
     <linearGradient id="bottomShade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#050912" stop-opacity="0"/>
-      <stop offset="1" stop-color="#050912" stop-opacity="0.72"/>
+      <stop offset="0" stop-color="#030711" stop-opacity="0"/>
+      <stop offset="1" stop-color="#030711" stop-opacity="0.72"/>
     </linearGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#c6f36b"/>
@@ -19,39 +19,18 @@
   <image x="0" y="0" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" xlink:href="preview-unlock-wallpaper.jpg"/>
   <rect width="1920" height="1080" fill="url(#shade)"/>
   <rect width="1920" height="1080" fill="url(#bottomShade)"/>
-  <rect x="64" y="54" width="1792" height="972" rx="22" fill="none" stroke="#55d8ff" stroke-width="2" opacity="0.38"/>
-  <path d="M96 54h228M1696 1026h128" stroke="url(#signal)" stroke-width="4"/>
 
-  <g transform="translate(120 126)">
-    <path d="M0 0h72" stroke="#c6f36b" stroke-width="5"/>
-    <text x="92" y="7" font-family="monospace" font-size="16" letter-spacing="4" fill="#c6f36b">OLIGARCHY / PRIVATE COMPUTE CLUB</text>
-    <text x="0" y="102" font-family="monospace" font-size="72" font-weight="700" letter-spacing="10" fill="#e8eef6">OLIGARCHY</text>
-    <text x="4" y="145" font-family="monospace" font-size="17" letter-spacing="4" fill="#55d8ff">ACCESS 001 // SECURE SESSION</text>
-    <path d="M0 184h620" stroke="#30455f" stroke-width="2"/>
-  </g>
+  <rect x="36" y="36" width="1848" height="1008" rx="10" fill="none" stroke="#31445b" stroke-width="2" opacity="0.78"/>
+  <path d="M120 315H820" stroke="url(#signal)" stroke-width="3" opacity="0.92"/>
+  <path d="M120 315V352M820 315V352" stroke="#55d8ff" stroke-width="2" opacity="0.55"/>
 
-  <g transform="translate(120 426)">
-    <rect width="700" height="272" rx="12" fill="#050912" fill-opacity="0.84" stroke="#30455f" stroke-width="2"/>
-    <rect x="0" y="0" width="6" height="272" rx="3" fill="url(#signal)"/>
-    <text x="44" y="53" font-family="monospace" font-size="14" letter-spacing="3" fill="#65718a">BOARD APPROVAL REQUIRED</text>
-    <text x="44" y="115" font-family="monospace" font-size="28" letter-spacing="2" fill="#55d8ff">ACCESS TO THE MEANS</text>
-    <text x="44" y="155" font-family="monospace" font-size="28" letter-spacing="2" fill="#e8eef6">OF PRODUCTION</text>
-    <path d="M44 181h612" stroke="#30455f" stroke-width="1"/>
-    <rect x="44" y="211" width="12" height="12" fill="#c6f36b"/>
-    <text x="78" y="222" font-family="monospace" font-size="14" letter-spacing="2.5" fill="#e8eef6">ENTER PASSPHRASE TO CONTINUE</text>
-  </g>
+  <text x="120" y="270" font-family="monospace" font-size="86" font-weight="700" letter-spacing="12" fill="#e8eef6">OLIGARCHY</text>
 
-  <g transform="translate(1516 126)">
-    <text x="0" y="0" font-family="monospace" font-size="13" letter-spacing="3" fill="#65718a">BOARD STATUS</text>
-    <text x="0" y="42" font-family="monospace" font-size="24" letter-spacing="2" fill="#f4c95d">01 / APPROVED</text>
-    <path d="M0 68h240" stroke="#f4c95d" stroke-width="2" opacity="0.7"/>
-    <text x="0" y="104" font-family="monospace" font-size="13" letter-spacing="2" fill="#e8eef6">SESSION 0.001</text>
-    <text x="0" y="132" font-family="monospace" font-size="13" letter-spacing="2" fill="#65718a">LIQUIDITY NONE</text>
-  </g>
+  <rect x="120" y="430" width="720" height="108" rx="12" fill="#050912" fill-opacity="0.86" stroke="#30455f" stroke-width="2"/>
+  <rect x="120" y="430" width="6" height="108" rx="3" fill="url(#signal)"/>
+  <rect x="164" y="480" width="12" height="12" fill="#c6f36b"/>
+  <text x="198" y="494" font-family="monospace" font-size="18" letter-spacing="3" fill="#55d8ff">ENTER PASSPHRASE TO CONTINUE</text>
 
-  <g transform="translate(120 944)">
-    <text x="0" y="0" font-family="monospace" font-size="15" letter-spacing="3" fill="#c6f36b">VOTING POWER: 0.001%</text>
-    <text x="370" y="0" font-family="monospace" font-size="15" letter-spacing="3" fill="#65718a">LIQUIDITY: NONE / BOARD: 1</text>
-    <text x="1270" y="0" font-family="monospace" font-size="13" letter-spacing="2" fill="#65718a">ASSETS UNDER MANAGEMENT: THIS DESKTOP</text>
-  </g>
+  <path d="M120 980H1800" stroke="#55d8ff" stroke-width="2" opacity="0.35"/>
+  <path d="M120 980V952M1800 980V952" stroke="#55d8ff" stroke-width="2" opacity="0.35"/>
 </svg>
