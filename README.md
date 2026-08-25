@@ -36,7 +36,7 @@ This repository includes the shared palette plus explicit styling for Hyprland b
 
 ## Development
 
-The source assets for the unlock art and preview composition live in `art/source/`. The four wallpapers are final raster assets in `backgrounds/`; rebuild the generated assets with:
+The source assets for the unlock art and preview composition live in `art/source/`. The unlock preview uses a lightweight local crop of the Diablo wallpaper so SVG rendering stays portable. The four wallpapers are final raster assets in `backgrounds/`; rebuild the generated assets with:
 
 ```bash
 ./scripts/render-assets.sh

@@ -1,24 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="45%" r="72%">
-      <stop offset="0" stop-color="#182840"/>
-      <stop offset="0.58" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#050912"/>
-    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#050912" stop-opacity="0.92"/>
+      <stop offset="0.42" stop-color="#050912" stop-opacity="0.72"/>
+      <stop offset="0.74" stop-color="#050912" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#050912" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="bottomShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050912" stop-opacity="0"/>
+      <stop offset="1" stop-color="#050912" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c6f36b"/>
+      <stop offset="1" stop-color="#55d8ff"/>
+    </linearGradient>
   </defs>
-  <rect width="1920" height="1080" fill="url(#bg)"/>
-  <g transform="translate(960 540)" fill="none" stroke="#30455f">
-    <circle r="360" stroke-width="2"/>
-    <circle r="306" stroke-width="1" stroke-dasharray="3 14"/>
-    <path d="M-510 0H-386M386 0H510M0-510V-386M0 386V510" stroke="#55d8ff" stroke-width="2"/>
+
+  <image x="0" y="0" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" xlink:href="preview-unlock-wallpaper.jpg"/>
+  <rect width="1920" height="1080" fill="url(#shade)"/>
+  <rect width="1920" height="1080" fill="url(#bottomShade)"/>
+  <rect x="64" y="54" width="1792" height="972" rx="22" fill="none" stroke="#55d8ff" stroke-width="2" opacity="0.38"/>
+  <path d="M96 54h228M1696 1026h128" stroke="url(#signal)" stroke-width="4"/>
+
+  <g transform="translate(120 126)">
+    <path d="M0 0h72" stroke="#c6f36b" stroke-width="5"/>
+    <text x="92" y="7" font-family="monospace" font-size="16" letter-spacing="4" fill="#c6f36b">OLIGARCHY / PRIVATE COMPUTE CLUB</text>
+    <text x="0" y="102" font-family="monospace" font-size="72" font-weight="700" letter-spacing="10" fill="#e8eef6">OLIGARCHY</text>
+    <text x="4" y="145" font-family="monospace" font-size="17" letter-spacing="4" fill="#55d8ff">ACCESS 001 // SECURE SESSION</text>
+    <path d="M0 184h620" stroke="#30455f" stroke-width="2"/>
   </g>
-  <g transform="translate(560 426)">
-    <rect width="800" height="228" rx="14" fill="#0b1020" stroke="#30455f" stroke-width="3"/>
-    <rect x="28" y="28" width="744" height="172" rx="8" fill="none" stroke="#253a54"/>
-    <path d="M72 68h30v30H72zM72 112h30v30H72zM72 156h30v30H72z" fill="#c6f36b"/>
-    <text x="138" y="110" font-family="monospace" font-size="54" font-weight="700" letter-spacing="6" fill="#e8eef6">OLIGARCHY</text>
-    <text x="141" y="152" font-family="monospace" font-size="17" letter-spacing="3" fill="#55d8ff">ACCESS TO THE MEANS OF PRODUCTION</text>
-    <text x="141" y="181" font-family="monospace" font-size="13" letter-spacing="2" fill="#65718a">ENTER PASSPHRASE TO CONTINUE</text>
+
+  <g transform="translate(120 426)">
+    <rect width="700" height="272" rx="12" fill="#050912" fill-opacity="0.84" stroke="#30455f" stroke-width="2"/>
+    <rect x="0" y="0" width="6" height="272" rx="3" fill="url(#signal)"/>
+    <text x="44" y="53" font-family="monospace" font-size="14" letter-spacing="3" fill="#65718a">BOARD APPROVAL REQUIRED</text>
+    <text x="44" y="115" font-family="monospace" font-size="28" letter-spacing="2" fill="#55d8ff">ACCESS TO THE MEANS</text>
+    <text x="44" y="155" font-family="monospace" font-size="28" letter-spacing="2" fill="#e8eef6">OF PRODUCTION</text>
+    <path d="M44 181h612" stroke="#30455f" stroke-width="1"/>
+    <rect x="44" y="211" width="12" height="12" fill="#c6f36b"/>
+    <text x="78" y="222" font-family="monospace" font-size="14" letter-spacing="2.5" fill="#e8eef6">ENTER PASSPHRASE TO CONTINUE</text>
   </g>
-  <text x="960" y="792" text-anchor="middle" font-family="monospace" font-size="16" letter-spacing="4" fill="#65718a">VOTING POWER: 0.001%  /  LIQUIDITY: NONE  /  BOARD: 1</text>
+
+  <g transform="translate(1516 126)">
+    <text x="0" y="0" font-family="monospace" font-size="13" letter-spacing="3" fill="#65718a">BOARD STATUS</text>
+    <text x="0" y="42" font-family="monospace" font-size="24" letter-spacing="2" fill="#f4c95d">01 / APPROVED</text>
+    <path d="M0 68h240" stroke="#f4c95d" stroke-width="2" opacity="0.7"/>
+    <text x="0" y="104" font-family="monospace" font-size="13" letter-spacing="2" fill="#e8eef6">SESSION 0.001</text>
+    <text x="0" y="132" font-family="monospace" font-size="13" letter-spacing="2" fill="#65718a">LIQUIDITY NONE</text>
+  </g>
+
+  <g transform="translate(120 944)">
+    <text x="0" y="0" font-family="monospace" font-size="15" letter-spacing="3" fill="#c6f36b">VOTING POWER: 0.001%</text>
+    <text x="370" y="0" font-family="monospace" font-size="15" letter-spacing="3" fill="#65718a">LIQUIDITY: NONE / BOARD: 1</text>
+    <text x="1270" y="0" font-family="monospace" font-size="13" letter-spacing="2" fill="#65718a">ASSETS UNDER MANAGEMENT: THIS DESKTOP</text>
+  </g>
 </svg>
