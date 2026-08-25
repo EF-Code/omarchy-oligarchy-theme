@@ -1,8 +1,8 @@
 # Oligarchy: The 0.001% Club
 
-An Omarchy theme for the private-equity operating system inside all of us.
+An Omarchy theme for the billionaire operating system.
 
-Oligarchy is designed to be funny at a glance and comfortable after five minutes of use:
+Oligarchy is designed for the Oligarchs who use Linux:
 
 - midnight navy and graphite surfaces
 - acid-lime action color with cyan information accents
@@ -10,7 +10,10 @@ Oligarchy is designed to be funny at a glance and comfortable after five minutes
 - crisp modern UI with a pixel-inspired wordmark
 - cinematic automotive wallpapers inspired by Omarchy’s Quattro road imagery, without turning the desktop into a screensaver ad
 
-The jokes live in the branding and artwork. The palette stays quiet enough for terminals, editors, dashboards, and long work sessions.
+## Screenshots:
+ <img width="1920" height="1080" alt="Oligarchy Theme" src="https://github.com/user-attachments/assets/0d6f2ca7-0542-4246-9534-b015336f52fb" />
+
+<img width="1890" height="1017" alt="Oligarchy Login" src="https://github.com/user-attachments/assets/63a3c265-4c21-44c7-aa9d-46cd089ac3ef" />
 
 ## Install
 
