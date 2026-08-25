@@ -1,0 +1,39 @@
+mode = "dark"
+
+# Oligarchy: The 0.001% Club
+# Dark navy is the room. Lime is action. Cyan is information. Gold is status.
+
+accent = "#c6f36b"
+selection = "#263851"
+muted = "#65718a"
+
+background = "#0b1020"
+dark_background = "#080d18"
+darker_background = "#050912"
+lighter_background = "#141e30"
+
+foreground = "#e8eef6"
+dark_foreground = "#6f7d95"
+light_foreground = "#b7c6d6"
+bright_foreground = "#f7fbff"
+
+hyprland_active_border = "rgba(c6f36bee) rgba(55d8ffff) 45deg"
+hyprland_inactive_border = "rgb(25304a)"
+active_border_color = "#c6f36b"
+active_tab_background = "#19283a"
+
+red = "#ff6b6b"
+yellow = "#f4c95d"
+orange = "#f2a65a"
+green = "#9fe870"
+cyan = "#55d8ff"
+blue = "#4ba3c7"
+magenta = "#b78cff"
+brown = "#7e4b2a"
+
+bright_red = "#ff9696"
+bright_yellow = "#ffe39a"
+bright_green = "#c6f36b"
+bright_cyan = "#a1edff"
+bright_blue = "#83d9f0"
+bright_magenta = "#d7c2ff"

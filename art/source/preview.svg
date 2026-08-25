@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1012" viewBox="0 0 1800 1012">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#142238"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c6f36b"/>
+      <stop offset="1" stop-color="#55d8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="1012" fill="url(#wall)"/>
+  <path d="M0 830 C380 720 520 920 850 760 S1370 560 1800 700 V1012 H0Z" fill="#08101c" opacity="0.64"/>
+  <rect x="0" y="0" width="1800" height="38" fill="#080d18"/>
+  <rect x="0" y="37" width="1800" height="2" fill="url(#accent)"/>
+  <g font-family="monospace" font-size="14" letter-spacing="2">
+    <text x="22" y="25" fill="#c6f36b">O</text><text x="58" y="25" fill="#e8eef6">1</text><text x="91" y="25" fill="#65718a">2</text><text x="124" y="25" fill="#65718a">3</text>
+    <text x="1420" y="25" fill="#55d8ff">VOTING POWER 0.001%</text><text x="1704" y="25" fill="#f4c95d">BOARD 1</text>
+  </g>
+  <g fill="#0b1020" stroke="#30455f" stroke-width="2">
+    <rect x="18" y="58" width="876" height="538" rx="6"/>
+    <rect x="912" y="58" width="870" height="538" rx="6"/>
+    <rect x="18" y="616" width="1140" height="370" rx="6"/>
+    <rect x="1176" y="616" width="606" height="370" rx="6"/>
+  </g>
+  <g font-family="monospace">
+    <text x="45" y="94" font-size="15" letter-spacing="3" fill="#55d8ff">BOARDROOM / NVIM</text>
+    <text x="45" y="131" font-size="16" fill="#65718a">01</text><text x="88" y="131" font-size="16" fill="#e8eef6">theme/colors.toml</text><text x="790" y="131" font-size="14" fill="#c6f36b">MODIFIED</text>
+    <path d="M44 150H864" stroke="#253a54"/>
+    <g font-size="14">
+      <text x="56" y="184" fill="#65718a">01</text><text x="102" y="184" fill="#b78cff">mode</text><text x="224" y="184" fill="#e8eef6">=</text><text x="252" y="184" fill="#c6f36b">"dark"</text>
+      <text x="56" y="216" fill="#65718a">02</text><text x="102" y="216" fill="#55d8ff">accent</text><text x="224" y="216" fill="#e8eef6">=</text><text x="252" y="216" fill="#c6f36b">"#c6f36b"</text>
+      <text x="56" y="248" fill="#65718a">03</text><text x="102" y="248" fill="#55d8ff">selection</text><text x="224" y="248" fill="#e8eef6">=</text><text x="252" y="248" fill="#55d8ff">"#263851"</text>
+      <text x="56" y="280" fill="#65718a">04</text><text x="102" y="280" fill="#55d8ff">background</text><text x="224" y="280" fill="#e8eef6">=</text><text x="252" y="280" fill="#55d8ff">"#0b1020"</text>
+      <text x="56" y="312" fill="#65718a">05</text><text x="102" y="312" fill="#55d8ff">foreground</text><text x="224" y="312" fill="#e8eef6">=</text><text x="252" y="312" fill="#e8eef6">"#e8eef6"</text>
+      <text x="56" y="344" fill="#65718a">06</text><text x="102" y="344" fill="#b78cff">hyprland_active_border</text><text x="390" y="344" fill="#e8eef6">=</text><text x="418" y="344" fill="#f4c95d">"lime → cyan"</text>
+      <text x="56" y="406" fill="#65718a">11</text><text x="102" y="406" fill="#65718a"># the room is dark</text>
+      <text x="56" y="438" fill="#65718a">12</text><text x="102" y="438" fill="#65718a"># the action is bright</text>
+    </g>
+    <rect x="44" y="478" width="818" height="34" fill="#19283a"/>
+    <text x="56" y="501" font-size="14" fill="#c6f36b">~  shareholders get things done</text>
+    <text x="944" y="94" font-size="15" letter-spacing="3" fill="#55d8ff">MARKET DATA / BTOP</text>
+    <text x="944" y="132" font-size="14" fill="#65718a">LIQUIDITY</text><text x="1090" y="132" font-size="14" fill="#ff6b6b">NONE</text><text x="1380" y="132" font-size="14" fill="#65718a">BOARD</text><text x="1480" y="132" font-size="14" fill="#f4c95d">1</text>
+    <g fill="none" stroke="#30455f">
+      <rect x="944" y="166" width="380" height="150"/><rect x="1348" y="166" width="404" height="150"/><rect x="944" y="344" width="808" height="208"/>
+    </g>
+    <g stroke="#253a54"><path d="M978 202H1290M978 244H1290M978 286H1290"/><path d="M1382 202H1718M1382 244H1718M1382 286H1718"/></g>
+    <path d="M968 518 L1060 480 L1120 498 L1204 414 L1280 448 L1350 390 L1430 412 L1520 300 L1620 344 L1730 232" fill="none" stroke="url(#accent)" stroke-width="4"/>
+    <g font-size="14">
+      <text x="974" y="198" fill="#55d8ff">CPU</text><text x="1180" y="198" fill="#c6f36b">24%</text>
+      <text x="1378" y="198" fill="#55d8ff">MEM</text><text x="1580" y="198" fill="#f4c95d">62%</text>
+      <text x="974" y="376" fill="#55d8ff">WEALTH REDISTRIBUTION / NETWORK</text>
+    </g>
+    <text x="45" y="652" font-size="15" letter-spacing="3" fill="#55d8ff">SHAREHOLDER TERMINAL</text>
+    <text x="45" y="695" font-size="15" fill="#c6f36b">shareholder@omarchy</text><text x="270" y="695" font-size="15" fill="#e8eef6">~ % omarchy theme set oligarchy</text>
+    <text x="45" y="727" font-size="15" fill="#65718a">Applying board-approved palette...</text>
+    <text x="45" y="759" font-size="15" fill="#55d8ff">[OK]</text><text x="110" y="759" font-size="15" fill="#e8eef6">Access to the means of production granted.</text>
+    <text x="45" y="814" font-size="15" fill="#c6f36b">shareholder@omarchy</text><text x="270" y="814" font-size="15" fill="#e8eef6">~ % echo $VOTING_POWER</text>
+    <text x="45" y="846" font-size="15" fill="#f4c95d">0.001%</text>
+    <text x="45" y="918" font-size="15" fill="#65718a">From the 0.001% to /home/you.</text>
+    <text x="1206" y="652" font-size="15" letter-spacing="3" fill="#55d8ff">PRIVATE OFFICE / FILES</text>
+    <g fill="#263851" stroke="#4ba3c7">
+      <rect x="1210" y="706" width="110" height="78"/><rect x="1370" y="706" width="110" height="78"/><rect x="1530" y="706" width="110" height="78"/>
+      <rect x="1210" y="842" width="110" height="78"/><rect x="1370" y="842" width="110" height="78"/><rect x="1530" y="842" width="110" height="78"/>
+    </g>
+    <g font-size="13" text-anchor="middle" fill="#e8eef6"><text x="1265" y="810">CAP TABLE</text><text x="1425" y="810">ISO</text><text x="1585" y="810">BOARD</text><text x="1265" y="946">ASSETS</text><text x="1425" y="946">REPORTS</text><text x="1585" y="946">LIQUIDITY</text></g>
+  </g>
+</svg>

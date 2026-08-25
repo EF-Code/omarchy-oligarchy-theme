@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="72%">
+      <stop offset="0" stop-color="#182840"/>
+      <stop offset="0.58" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#050912"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <g transform="translate(960 540)" fill="none" stroke="#30455f">
+    <circle r="360" stroke-width="2"/>
+    <circle r="306" stroke-width="1" stroke-dasharray="3 14"/>
+    <path d="M-510 0H-386M386 0H510M0-510V-386M0 386V510" stroke="#55d8ff" stroke-width="2"/>
+  </g>
+  <g transform="translate(560 426)">
+    <rect width="800" height="228" rx="14" fill="#0b1020" stroke="#30455f" stroke-width="3"/>
+    <rect x="28" y="28" width="744" height="172" rx="8" fill="none" stroke="#253a54"/>
+    <path d="M72 68h30v30H72zM72 112h30v30H72zM72 156h30v30H72z" fill="#c6f36b"/>
+    <text x="138" y="110" font-family="monospace" font-size="54" font-weight="700" letter-spacing="6" fill="#e8eef6">OLIGARCHY</text>
+    <text x="141" y="152" font-family="monospace" font-size="17" letter-spacing="3" fill="#55d8ff">ACCESS TO THE MEANS OF PRODUCTION</text>
+    <text x="141" y="181" font-family="monospace" font-size="13" letter-spacing="2" fill="#65718a">ENTER PASSPHRASE TO CONTINUE</text>
+  </g>
+  <text x="960" y="792" text-anchor="middle" font-family="monospace" font-size="16" letter-spacing="4" fill="#65718a">VOTING POWER: 0.001%  /  LIQUIDITY: NONE  /  BOARD: 1</text>
+</svg>
