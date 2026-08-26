@@ -11,7 +11,10 @@ Oligarchy is designed for the Oligarchs who use Linux:
 - three satirical screen-print wallpapers: a public-computing factory, trickle-down computing, and a board-approved laptop
 
 ## Screenshots:
- <img width="1920" height="1080" alt="Oligarchy Theme" src="https://github.com/user-attachments/assets/0d6f2ca7-0542-4246-9534-b015336f52fb" />
+ <img width="1920" height="1080" alt="screenshot-2026-08-27_00-24-13" src="https://github.com/user-attachments/assets/f76a9b17-783a-467e-b936-1d4b49cfa345" />
+
+##
+
 
 <img width="1920" height="1080" alt="Oligarchy Preview" src="https://github.com/user-attachments/assets/8b96eaec-32ee-4bc4-b337-ed196d9f9948" />
 
