@@ -22,11 +22,18 @@ for required_file in "${required_files[@]}"; do
   fi
 done
 
-background_count=$(find "$repo_root/backgrounds" -maxdepth 1 -type f -iregex '.*\.\(jpg\|jpeg\|png\|gif\|bmp\|webp\)$' | wc -l)
-if (( background_count < 4 )); then
-  echo "Expected at least four Omarchy-compatible backgrounds; found $background_count" >&2
+mapfile -t background_files < <(
+  find "$repo_root/backgrounds" -maxdepth 1 -type f \
+    -iregex '.*\.\(jpg\|jpeg\|png\|gif\|bmp\|webp\)$' | sort
+)
+background_count=${#background_files[@]}
+if (( background_count != 3 )); then
+  echo "Expected exactly three Omarchy backgrounds; found $background_count" >&2
   exit 1
 fi
+
+max_background_bytes=$((1920 * 1080 / 2))
+max_background_file_bytes=$((4 * 1024 * 1024))
 
 check_dimensions() {
   local path="$1"
@@ -45,13 +52,19 @@ check_dimensions() {
   fi
 }
 
-check_dimensions "$repo_root/unlock.png" "800x188"
+check_dimensions "$repo_root/unlock.png" "1920x1080"
 check_dimensions "$repo_root/preview-unlock.png" "1920x1080"
-check_dimensions "$repo_root/preview.png" "1800x1012"
+check_dimensions "$repo_root/preview.png" "1920x1080"
 
-while IFS= read -r background; do
+for background in "${background_files[@]}"; do
   check_dimensions "$background" "1920x1080"
-done < <(find "$repo_root/backgrounds" -maxdepth 1 -type f -name '*.png' | sort)
+
+  background_bytes=$(stat -c '%s' "$background")
+  if (( background_bytes > max_background_file_bytes || background_bytes > max_background_bytes )); then
+    echo "Background is too large: ${background#$repo_root/} (${background_bytes} bytes; max ${max_background_bytes} bytes at 0.5 bytes/pixel)" >&2
+    exit 1
+  fi
+done
 
 "$python_bin" - "$repo_root/colors.toml" <<'PY'
 from __future__ import annotations
@@ -132,4 +145,4 @@ for foreground in ("foreground", "bright_foreground", "accent"):
 print(f"Validated {colors_path.name}: {len(colors)} keys, dark mode, readable primary colors")
 PY
 
-echo "Validated Omarchy theme contract and $(find "$repo_root/backgrounds" -maxdepth 1 -type f -name '*.png' | wc -l) backgrounds"
+echo "Validated Omarchy theme contract and $background_count backgrounds"

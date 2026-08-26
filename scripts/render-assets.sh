@@ -21,7 +21,7 @@ render() {
 
 # The wallpapers are final 1920x1080 raster art. Keep them out of this render
 # pass so rebuilding the vector lock-screen and preview assets cannot replace
-# the photographic background set.
+# the satirical background set.
 render "$source_root/unlock.svg" "$repo_root/unlock.png" 800 188
 render "$source_root/preview-unlock.svg" "$repo_root/preview-unlock.png" 1920 1080
 render "$source_root/preview.svg" "$repo_root/preview.png" 1800 1012

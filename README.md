@@ -8,7 +8,7 @@ Oligarchy is designed for the Oligarchs who use Linux:
 - acid-lime action color with cyan information accents
 - restrained gold for status and “wealth” moments
 - crisp modern UI with a pixel-inspired wordmark
-- cinematic automotive wallpapers inspired by Omarchy’s Quattro road imagery, without turning the desktop into a screensaver ad
+- three satirical screen-print wallpapers: a public-computing factory, trickle-down computing, and a board-approved laptop
 
 ## Screenshots:
  <img width="1920" height="1080" alt="Oligarchy Theme" src="https://github.com/user-attachments/assets/0d6f2ca7-0542-4246-9534-b015336f52fb" />
@@ -36,11 +36,11 @@ This is a theme, so its canonical home is a public GitHub repository. Omarchy ca
 
 ## Theme surfaces
 
-This repository includes the shared palette plus explicit styling for Hyprland borders, btop, Chromium, icons, boot unlock art, a theme preview, and four 1920×1080 wallpapers. It intentionally has no runtime plugin or external theme dependency.
+This repository includes the shared palette plus explicit styling for Hyprland borders, btop, Chromium, icons, boot unlock art, a theme preview, and three optimized 1920×1080 WebP wallpapers. The wallpaper set pairs clear visual satire with large negative space so real terminal and editor windows remain comfortable on top of it. It intentionally has no runtime plugin or external theme dependency.
 
 ## Development
 
-The source assets for the unlock art and preview composition live in `art/source/`. The unlock preview uses a lightweight local crop of the Diablo wallpaper so SVG rendering stays portable. The four wallpapers are final raster assets in `backgrounds/`; rebuild the generated assets with:
+The source assets for the unlock art and preview composition live in `art/source/`. The unlock preview uses a lightweight local crop of the earlier automotive artwork so SVG rendering stays portable. The three wallpapers are optimized final raster assets in `backgrounds/`. Rebuild the vector unlock and preview assets with:
 
 ```bash
 ./scripts/render-assets.sh
