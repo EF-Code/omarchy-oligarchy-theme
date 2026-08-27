@@ -11,10 +11,7 @@ Oligarchy is designed for the Oligarchs who use Linux:
 - three satirical screen-print wallpapers: a public-computing factory, trickle-down computing, and a board-approved laptop
 
 ## Screenshots:
- <img width="1920" height="1080" alt="screenshot-2026-08-27_00-24-13" src="https://github.com/user-attachments/assets/f76a9b17-783a-467e-b936-1d4b49cfa345" />
-
-##
-
+<img width="1920" height="1080" alt="screenshot-2026-08-27_00-24-13" src="https://github.com/user-attachments/assets/f76a9b17-783a-467e-b936-1d4b49cfa345" />
 
 <img width="1920" height="1080" alt="Oligarchy Preview" src="https://github.com/user-attachments/assets/8b96eaec-32ee-4bc4-b337-ed196d9f9948" />
 
@@ -39,11 +36,11 @@ This is a theme, so its canonical home is a public GitHub repository. Omarchy ca
 
 ## Theme surfaces
 
-This repository includes the shared palette plus explicit styling for Hyprland borders, btop, Chromium, icons, boot unlock art, a theme preview, and three optimized 1920×1080 WebP wallpapers. The wallpaper set pairs clear visual satire with large negative space so real terminal and editor windows remain comfortable on top of it. It intentionally has no runtime plugin or external theme dependency.
+This repository includes the shared palette plus explicit styling for btop, Chromium, icons, boot unlock art, a theme preview, and three optimized 1920×1080 WebP wallpapers. Omarchy generates Hyprland and other runtime configuration from `colors.toml` when a theme is installed from Git. The wallpaper set pairs clear visual satire with large negative space so real terminal and editor windows remain comfortable on top of it. It intentionally has no runtime plugin or external theme dependency.
 
 ## Development
 
-The source assets for the unlock art and preview composition live in `art/source/`. The unlock preview uses a lightweight local crop of the earlier automotive artwork so SVG rendering stays portable. The three wallpapers are optimized final raster assets in `backgrounds/`. Rebuild the vector unlock and preview assets with:
+The source assets for the unlock art and preview composition live in `art/source/`. The unlock preview uses a lightweight local wallpaper crop so SVG rendering stays portable. The three wallpapers are optimized final raster assets in `backgrounds/`. Rebuild the vector unlock and preview assets with:
 
 ```bash
 ./scripts/render-assets.sh

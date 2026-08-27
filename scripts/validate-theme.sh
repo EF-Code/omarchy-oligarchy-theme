@@ -2,13 +2,15 @@
 set -euo pipefail
 
 repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
-python_bin="${PYTHON_BIN:-/home/hiro/.venv/bin/python}"
+python_bin="${PYTHON_BIN:-python3}"
+
+# Omarchy drops Lua files from themes installed from Git and regenerates the
+# Hyprland configuration from colors.toml.
 
 required_files=(
   colors.toml
   icons.theme
   chromium.theme
-  hyprland.lua
   btop.theme
   unlock.png
   preview-unlock.png
@@ -47,21 +49,21 @@ check_dimensions() {
 
   actual=$(identify -format '%wx%h' "$path")
   if [[ "$actual" != "$expected" ]]; then
-    echo "Unexpected dimensions for ${path#$repo_root/}: $actual (expected $expected)" >&2
+    echo "Unexpected dimensions for ${path#"$repo_root"/}: $actual (expected $expected)" >&2
     exit 1
   fi
 }
 
-check_dimensions "$repo_root/unlock.png" "1920x1080"
+check_dimensions "$repo_root/unlock.png" "800x188"
 check_dimensions "$repo_root/preview-unlock.png" "1920x1080"
-check_dimensions "$repo_root/preview.png" "1920x1080"
+check_dimensions "$repo_root/preview.png" "1800x1012"
 
 for background in "${background_files[@]}"; do
   check_dimensions "$background" "1920x1080"
 
   background_bytes=$(stat -c '%s' "$background")
   if (( background_bytes > max_background_file_bytes || background_bytes > max_background_bytes )); then
-    echo "Background is too large: ${background#$repo_root/} (${background_bytes} bytes; max ${max_background_bytes} bytes at 0.5 bytes/pixel)" >&2
+    echo "Background is too large: ${background#"$repo_root"/} (${background_bytes} bytes; max ${max_background_bytes} bytes at 0.5 bytes/pixel)" >&2
     exit 1
   fi
 done
